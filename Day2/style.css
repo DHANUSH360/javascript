@@ -1,0 +1,29 @@
+body{
+    background: rgb(124, 124, 156);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color: red;
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+#count{
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+button{
+    padding: 12px 25px;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
