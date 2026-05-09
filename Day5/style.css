@@ -1,0 +1,20 @@
+#cell_container{
+    display:flex;
+    flex-wrap:wrap;
+    width:600px;
+}
+
+.cell{
+    width:60px;
+    height:60px;
+    border:1px solid gray;
+    box-sizing:border-box;
+    position:relative;
+}
+
+.person{
+    padding:5px;
+    border-radius:50%;
+    position:absolute;
+    bottom:5px;
+}
